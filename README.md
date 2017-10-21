@@ -26,7 +26,7 @@ Each of these modalities provide different information about the scene and the p
 1. TensorFLow
 
 ## Timeline of the project
-![picture](Timeline.png)
+![picture](https://github.com/Shoban94/project-deep-hyper-spectral-imager/blob/gh-pages/Timeline.png)
 
 ## References
 
