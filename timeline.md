@@ -5,4 +5,4 @@ description: Project Planning
 ---
 
 ## Gantt Chart of the Project Timeline
-![picture](Timeline.jpg)
+![picture](Timeline_plan.png)
