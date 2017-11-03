@@ -25,6 +25,6 @@ The SR300 camera is compatible with Jetson board and comes with RealSense SDK wh
 
 Depth sensing technology is currently used in widespread applications like 3D indoor mapping, Augmented Reality, Medical imaging and object detection. [1] talks about basic RGBD mapping for an indoor environment while [2] talks about the the real time human detection in the dynamically cluttered environment. [3] suggests pose detection using the depth sensors.
 
-[1]Peter Henry, Micheal Krainin, Evan Herbst, Xiaofeng Ren, Dieter Fox, “ RGB-D mapping : Using Kinect- style depth cameras for dense #D modelling of indoor environments”.
-[2] Jingwen Zhao, Guyue Zhang, Luchao Tian, Yan Qiu Chen, “REAL-TIME HUMAN DETECTION WITH DEPTH CAMERA VIA A PHYSICAL RADIUS-DEPTH DETECTOR AND A CNN DESCRIPTOR”
-[3] Noel S. Kropf, Mattias Marder, Charles F Wiecha, “Pose detection using depth camera”.
+* [1]Peter Henry, Micheal Krainin, Evan Herbst, Xiaofeng Ren, Dieter Fox, “ RGB-D mapping : Using Kinect- style depth cameras for dense   #D modelling of indoor environments”.
+* [2] Jingwen Zhao, Guyue Zhang, Luchao Tian, Yan Qiu Chen, “REAL-TIME HUMAN DETECTION WITH DEPTH CAMERA VIA A PHYSICAL RADIUS-DEPTH       DETECTOR AND A CNN DESCRIPTOR”
+* [3] Noel S. Kropf, Mattias Marder, Charles F Wiecha, “Pose detection using depth camera”.
