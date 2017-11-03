@@ -32,9 +32,9 @@ Each of these modalities provide different information about the scene and the p
   7. [References](references.md)
 
 ## Project Members
-1. Aman Srivastava
-2. Shoban Narayan Ramesh
-3. Shreya Ramaprasad
+1. **Aman Srivastava**
+2. **Shoban Narayan Ramesh**
+3. **Shreya Ramaprasad**
 
 ## Project Mentor
 **Prof. Mani Srivastava**
