@@ -22,7 +22,7 @@ For the implementation in our project, we propose to use the Matrix creator, a p
 
 # Microphone Array on Matrix Creator
 
-Source: https://matrix-io.github.io/matrix-documentation/
+Source: [https://matrix-io.github.io/matrix-documentation/](https://matrix-io.github.io/matrix-documentation/)
 
 HAL is the lowest-level abstraction for the MATRIX Creator. It provides C++ drivers for sensors and the FPGA and microcontrollers on the MATRIX device.
 
@@ -39,7 +39,7 @@ The matrix creator provides a circular array of 8 omnidirectional microphones.
 
   * Acoular is a framework for acoustic beamforming that is written in the Python programming language. It is aimed at applications in acoustic testing.
   * Multichannel data recorded by a microphone array can be processed and analyzed in order to generate mappings of sound source distributions.
- * The maps (acoustic photographs) can then be used to locate sources of interest and to characterize them using their spectra. (Reference: http://acoular.org/)
+ * The maps (acoustic photographs) can then be used to locate sources of interest and to characterize them using their spectra. (Reference: [http://acoular.org/](http://acoular.org/))
 
 The Acoular package takes in the multi-channel audio samples in Hierarchical Data format (.hd5). The .raw data provided by the Matrix is converted into .h5 format and input to the beamforming functions of acoular. The following results were obtained.
 
@@ -48,6 +48,7 @@ The Acoular package takes in the multi-channel audio samples in Hierarchical Dat
 The acoular library provides some utilities to simulate sources of sound in the absence of an actual experimental setup.  It generates the sound pressure time histories for all channels of the microphone array in a hierarchical data file (HDF5) format if the location of the sound sources w.r.t the centre of the microphone array is given.
 
 The sources location: (0.1,0.1) (-0.1,-0.1) (0.1,-0.1)
+![Simulation Results](SimulationExample.png)
 
 # Beamforming results on audio samples collected from Matrix:
 
