@@ -26,7 +26,7 @@ Source: https://matrix-io.github.io/matrix-documentation/
 
 HAL is the lowest-level abstraction for the MATRIX Creator. It provides C++ drivers for sensors and the FPGA and microcontrollers on the MATRIX device.
 
-![Matrix Geometry](Matrix_Geometry.png)
+![Matrix Geometry](Matrix_Geometry.PNG)
 
 The matrix creator provides a circular array of 8 omnidirectional microphones.
 (Data sheet: [MP34DB02 - MEMS audio sensor omnidirectional digital microphone](http://www.st.com/content/ccc/resource/technical/document/datasheet/57/af/88/31/7b/59/4f/77/DM00111225.pdf/files/DM00111225.pdf/jcr:content/translations/en.DM00111225.pdf))
@@ -53,7 +53,7 @@ The sources location: (0.1,0.1) (-0.1,-0.1) (0.1,-0.1)
 
 The beamforming functions were then applied to the sound samples collected from Matrix after converting the .raw files into .h5 files .
 # Audio Samples from Matrix in HD5 format
-! [Audio_Samples](Audio_Sample_matrix.png)
+![Audio_Samples](Audio_sample_matrix.png)
 The figure above shows the mics (along the columns) and their normalized intensities (along the rows) . This is input to the beamforming functions.
 
 ## Literature Review
