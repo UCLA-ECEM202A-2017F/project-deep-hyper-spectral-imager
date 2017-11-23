@@ -18,4 +18,4 @@ description: Hardware & Software components used
 
 ## Software Resources
 
-1. TensorFLow [Installing TensorFlow on Jetson TX2](https://github.com/jetsonhacks/installTensorFlowTX2)
+1. TensorFLow - [Installing TensorFlow on Jetson TX2](https://github.com/jetsonhacks/installTensorFlowTX2)
