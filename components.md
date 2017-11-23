@@ -7,7 +7,7 @@ description: Hardware & Software components used
 
 ## Hardware Resources
 
-1. [Nvidia Jetson TX2 development board](Jetson_Into.md)
+1. [Nvidia Jetson TX2 development board](Jetson_Intro.md)
 2. [Matrix Respeakers microphone array - 2 Nos](Matrix_Intro.md)
 3. [Intel SR300 RealSense camera](SR300_Intro.md)
 4. [FLiR Dev Kit (thermal Camera kit)](Flir_Dev_Intro.md)
