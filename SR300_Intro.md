@@ -15,4 +15,4 @@ description: Introduction to SR300
 5. The SR300 camera is compatible with Jetson board and comes with RealSense SDK which provides easy programming for it.
 
 ## SR300 Specifications
-[![SR300](SR300_specs.png)](https://click.intel.com/intelrealsense-developer-kit-featuring-sr300.html)
+[![SR300](SR300_specs.PNG)](https://click.intel.com/intelrealsense-developer-kit-featuring-sr300.html)
