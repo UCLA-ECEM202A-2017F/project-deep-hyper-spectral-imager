@@ -4,11 +4,11 @@ title: Matrix
 description: Matrix Introduction
 ---
 
-## Matrix creator
+# Matrix creator
 
-![Matrix](Matrix.jpg)
+![Matrix](matrix.jpg)
 
-# MATRIX Creator specifications:
+## MATRIX Creator specifications:
 
 1. FPGA – Xilinx Spartan 6 FPGA
 2. MCU – Atmel ATSAM3S2C Cortex-M3 MCU
