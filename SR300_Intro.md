@@ -4,7 +4,7 @@ title: Components
 description: Introduction to SR300
 ---
 
-## Intel RealSense SR300
+# Intel RealSense SR300
 
 ![sr300](sr300.jpg)
 
@@ -14,5 +14,5 @@ description: Introduction to SR300
 4. The SR300 tracks the camera movement in 3D space with 6 DOF (degrees of freedom).3 Degrees from the Front/Back/Up/Down/Left/Right and 3 degrees from Yaw/Pitch/Roll movements.
 5. The SR300 camera is compatible with Jetson board and comes with RealSense SDK which provides easy programming for it.
 
-# SR300 Specifications
+## SR300 Specifications
 [![SR300](SR300_specs.png)](https://click.intel.com/intelrealsense-developer-kit-featuring-sr300.html)
