@@ -6,7 +6,7 @@
 """
 
 Loads the three sources test data set, analyzes them and generates a
-map of the three sources. 
+map of the three sources.
 
 """
 def format_coord(x, y):
@@ -19,7 +19,7 @@ import acoular
 from pylab import figure, plot, axis, imshow, colorbar, show
 import matplotlib.pyplot as plt
 
-micgeofile = path.join(path.split(acoular.__file__)[0],'xml','array_8_circular8.xml')
+micgeofile = path.join(path.split(acoular.__file__)[0],'xml','mic_geometry.xml')
 datafile = '-35,75.h5'
 
 mg = acoular.MicGeom( from_file=micgeofile )
