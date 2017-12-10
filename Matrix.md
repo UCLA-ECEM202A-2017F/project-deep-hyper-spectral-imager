@@ -8,7 +8,7 @@ description: Implementation
 
 ## Introduction
 
-* The first microphone arrays were used as early as the 1970s. It was called the “Acoustic Telescope” and opened up research in the area of Acoustic Sound Localization. Sound source Localisation has many applications such as  ground  military surveillance, reconnaissance and intrusion detection.
+* The first microphone arrays were used as early as the 1970s. It was called the “Acoustic Telescope” and opened up research in the area of Acoustic Sound Localization. Sound source localization has many applications such as  ground  military surveillance, reconnaissance and intrusion detection.
 
 * MEMS microphones have an omnidirectional pickup response, which means that they respond equally to sounds coming from any direction. However, multiple microphones can be configured in an array to form a directional response, or a beam pattern.
 
@@ -33,15 +33,31 @@ The matrix creator provides a circular array of 8 omnidirectional microphones.
 
 * The Matrix Hardware abstraction Layer (HAL) provides APIs to obtain samples from all channels (mics) collected by the FPGA and write down the audio samples  as Pulse code modulated values into .raw files.
 * The Matrix also provides an 8th channel which is the beamformed channel. -
-* The beamformed channel is the resultant value of the sound samples captured by the 8 mics calculated using a simple  delay and add algorithm. By default, the Matrix samples at 16000 samples/sec.
+* The beamformed channel is the resultant value of the sound samples captured by the 8 mics calculated using a simple delay and add algorithm. By default, the Matrix samples at 16000 samples/sec.
 
+## Installing matrix creator microphone array software packages
+   * `curl https://apt.matrix.one/doc/apt-key.gpg | sudo apt-key add -`
+   * `echo "deb https://apt.matrix.one/raspbian $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/matrixlabs.list`
+   * `sudo apt-get update`
+   * `sudo apt-get upgrade`
+   * `sudo apt-get install cmake g++ git libfftw3-dev wiringpi matrixio-creator-init libgflags-dev`
+   * `git clone --recursive https://github.com/matrix-io/matrix-creator-hal.git`
+   * `cd matrix-creator-hal && mkdir build && cd build`
+   * `cmake ..`
+   * `sudo make && sudo make install`
+Refer to [this repository](https://github.com/matrix-io/matrix-creator-hal) for sample programs to use the Matrix.
 # Beamforming Using Acoular packages
 
   * Acoular is a framework for acoustic beamforming that is written in the Python programming language. It is aimed at applications in acoustic testing.
   * Multichannel data recorded by a microphone array can be processed and analyzed in order to generate mappings of sound source distributions.
- * The maps (acoustic photographs) can then be used to locate sources of interest and to characterize them using their spectra. (Reference: [http://acoular.org/](http://acoular.org/))
+  * The maps (acoustic photographs) can then be used to locate sources of interest and to characterize them using their spectra. (Reference: [http://acoular.org/](http://acoular.org/))
 
 The Acoular package takes in the multi-channel audio samples in Hierarchical Data format (.hd5). The .raw data provided by the Matrix is converted into .h5 format and input to the beamforming functions of acoular. The following results were obtained.
+
+## Installing Acoular packages on a Linux Machine
+
+  * Follow the installation instructions given in this [link](http://www.acoular.org/install/index.html) under the heading *Option 1*. Other *options* will require us to download the dependencies on our own. Type the following on the command line/terminal after installing Anaconda.
+    `conda install -c acoular acoular`
 
 # Beamforming results on simulated data:
 
