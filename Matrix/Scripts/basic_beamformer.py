@@ -43,15 +43,12 @@ Lm = acoular.L_p( pm )
 
 plt.imsave(FolderName, Lm.T, origin='lower',vmin=Lm.max()-3,cmap=plt.cm.get_cmap('Blues', 6))
 
-
 fig = plt.figure()
 ax = fig.add_subplot(111)
 ax.imshow( Lm.T,origin='lower',vmin=Lm.max()-3,extent=rg.extend(),cmap=plt.cm.get_cmap('Blues', 6),interpolation='bicubic')
 
 ax.format_coord = format_coord
 plt.show()
-
-
 
 figure(2)
 plot(mg.mpos[0],mg.mpos[1],'o')
