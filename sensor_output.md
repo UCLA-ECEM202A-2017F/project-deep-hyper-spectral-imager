@@ -4,7 +4,9 @@ title: Sensor data
 description: Hyperspectral Output
 ---
 
-# Device setup
+# Sensor Outputs
+
+## Device setup
 
    * The Intel RealSense SR300 camera is placed above the Matrix creator with the displacement of *8CM* as shown in the image below:
 
@@ -14,23 +16,23 @@ description: Hyperspectral Output
 
    ![Mic Geometry](/Sound_Localisation/Mic.png)
 
-# Frame Size Calculations
+## Frame Size Calculations
 
-# Matrix Results
+## Matrix Results
 
-   1. Source Location:
+  1. Source Location:
 
-   ![Left_Acoular](/Sound_Localisation/Left_Acoular.png)
+  ![Left_Acoular](/Sound_Localisation/Left_Acoular.png)
 
-   2. Source Location:
+  2. Source Location:
 
-   ![Right_Acoular](/Sound_Localisation/Right_Acoular.png)
+  ![Right_Acoular](/Sound_Localisation/Right_Acoular.png)
 
   3. Source Location:
 
   ![Right_Down_Acoular](/Sound_Localisation/Right_Down_Acoular.png)
 
-# Realsense IR Images
+## Realsense IR Images
 
   1. Source Location : (-0.56,0.50,0.75)m
 
@@ -44,7 +46,7 @@ description: Hyperspectral Output
 
   ![Right_Down_IR](/RealSenseImages/ir_right_down.png)
 
-# Realsense Depth Images
+## Realsense Depth Images
 
   1. Source Location : (-0.56,0.50,0.75)m
 
