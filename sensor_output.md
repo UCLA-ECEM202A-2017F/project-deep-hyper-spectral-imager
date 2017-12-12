@@ -20,42 +20,42 @@ description: Hyperspectral Output
 
 ## Matrix Results
 
-  1. Source Location:
+  * Source Location 1:
 
   ![Left_Acoular](/Sound_Localisation/Left_Acoular.png)
 
-  2. Source Location:
+  * Source Location 2:
 
   ![Right_Acoular](/Sound_Localisation/Right_Acoular.png)
 
-  3. Source Location:
+  * Source Location 3:
 
   ![Right_Down_Acoular](/Sound_Localisation/Right_Down_Acoular.png)
 
 ## Realsense IR Images
 
-  1. Source Location : (-0.56,0.50,0.75)m
+  * Source Location 1: (-0.56,0.50,0.75)m
 
   ![Left_IR](/RealSenseImages/ir_left.png)
 
-  2. Source Location : (0.58,0.58,0.6)m
+  * Source Location 2: (0.58,0.58,0.6)m
 
   ![Right_IR](/RealSenseImages/ir_right.png)
 
-  3. Source Location : (0.27,-0.35,0.9)m
+  * Source Location 3: (0.27,-0.35,0.9)m
 
   ![Right_Down_IR](/RealSenseImages/ir_right_down.png)
 
 ## Realsense Depth Images
 
-  1. Source Location : (-0.56,0.50,0.75)m
+  * Source Location 1: (-0.56,0.50,0.75)m
 
   ![Left_depth](/RealSenseImages/d_left.png)
 
-  2. Source Location : (0.58,0.58,0.6)m
+  * Source Location 2: (0.58,0.58,0.6)m
 
   ![Right_Depth](/RealSenseImages/d_right.png)
 
-  3. Source Location : (0.27,-0.35,0.9)m
+  * Source Location 3: (0.27,-0.35,0.9)m
 
   ![Right_Down_Depth](/RealSenseImages/d_right_down.png)
