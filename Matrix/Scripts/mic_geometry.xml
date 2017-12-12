@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>									
+<MicArray name="array_8_circular">									
+	<pos Name="Point 	1	" x="	0.0200908	" y="	0.04850367	" z="	0	"/>
+	<pos Name="Point 	2	" x="	-.0200908	" y="	0.0485036	" z="	0	"/>
+	<pos Name="Point 	3	" x="	-.04850367	" y="	0.0200908	" z="	0	"/>
+	<pos Name="Point 	4	" x="	-0.04850367	" y="	-0.0200908	" z="	0	"/>
+	<pos Name="Point 	5	" x="	-0.0200908	" y="	-0.04850367	" z="	0	"/>
+	<pos Name="Point 	6	" x="	0.0200908	" y="	-0.04850367	" z="	0	"/>
+	<pos Name="Point 	7	" x="	0.04850367	" y="	-.0200908	" z="	0	"/>
+	<pos Name="Point 	8	" x="	0.04850367	" y="	0.0200908      "  z="	0	"/>
+</MicArray>									
