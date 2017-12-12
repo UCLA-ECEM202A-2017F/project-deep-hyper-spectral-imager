@@ -26,7 +26,7 @@ Each of these modalities provide different information about the scene and the p
      * [RF mmWave sensor (TI IWR1642)](RF_mmwave.md)
      * [Time of Flight Camera (Intel Realsense SR300)](Realsense_sr300.md)
      * [Thermal Camera (FLIR Dev Kit)](flir.md)
-  4. Integration of all the sensor data
+  4. [Integration of all the sensor data](hyperspectral.md)
   5. [Progress](progress.md)
   6. [Timeline](timeline.md)
   7. [References](references.md)
