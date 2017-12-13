@@ -50,8 +50,8 @@ description: Hyperspectral Output
 |0.5|0.8|0.674|0.126|2.4|-0.3|-0.1238|0.1762|3.361|
 |1|0.05|0.073|0.023|0.658|0.20|0.257|0.057|1.63|
 
-Angular Error = Tan-1((error/2)/depth)
 
+Angular Error = Tan-1((error/2)/depth)
 Average Ground Truth = 1.376(along y) , 2.10(along x)
 
 
