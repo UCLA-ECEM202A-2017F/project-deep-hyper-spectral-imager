@@ -43,7 +43,7 @@ description: Hyperspectral Output
 
 ## Ground Truth
 
-![Gnd_truth](Gnd_truth.png)
+
 
 
 |Depth(m)| y co-ordinate(m)|Observed y co-ordinate (m)| Error along x direction (m)|Angular error in deg| x co-ordinate(m)| Observed x co-ordinate(m)| Error along y direction(m)| Angular error in deg|
