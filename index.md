@@ -39,11 +39,10 @@ Each of these modalities provide different information about the scene and the p
 ## Project Mentor
 **Prof. Mani Srivastava**
 
-## Contributions
+## Contributions and Efforts
 * Sound Localisation: Shreya Ramaprasad
 * Modality overlay algorithm, frame size and Calibration : Aman Srivastava, Shoban Narayan Ramesh and Shreya Ramaprasad
-* Intel Realsense and Jetson TX2 setup : Shoban Narayan Ramesh
-* FLiR Thermal camera configuration: Aman Srivastava
+* Intel Realsense Camera and Jetson TX2 setup : Shoban Narayan Ramesh
+* FLiR Thermal camera and Kinect configuration on Pi: Aman Srivastava
 
 * A special thanks to **Amr(student of Prof Mani Srivastava)** for guiding us throughout this project.
- 
