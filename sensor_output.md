@@ -41,6 +41,22 @@ description: Hyperspectral Output
 
   ![Right_Down_Acoular](/Sound_Localisation/Right_Down_Acoular.png)
 
+## Ground Truth
+
+|Depth(m)| y co-ordinate(m)|Observed y co-ordinate (m)| Error along x direction (m)|Angular error in deg| x co-ordinate(m)| Observed x co-ordinate(m)| Error along y direction(m)| Angular error in deg|
+|--------|----------------|-------------------------|--------------------------|-------------------|--------------------|-------------------------|---------------------------|--------------------|
+|0.8|-0.2|-0.17|0.03|1.07|0|0.037|0.037|1.32|
+|0.5|0.8|0.674|0.126|2.4|-0.3|-0.1238|0.1762|3.361|
+|1|0.05|0.073|0.023|0.658|0.20|0.257|0.057|1.63|
+
+Angular Error = Tan-1()(error/2)/depth)
+Average Ground Truth = 1.376(along y) , 2.10(along x)
+
+
+
+
+
+
 ## Realsense IR Images
 
   * Source Location 1: (-0.56,0.50,0.75)m
