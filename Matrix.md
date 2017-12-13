@@ -69,6 +69,8 @@ The sources location: (0.1,0.1) (-0.1,-0.1) (0.1,-0.1)
 # Beamforming results on audio samples collected from Matrix:
 
 The beamforming functions were then applied to the sound samples collected from Matrix after converting the .raw files into .h5 files .
+![Acoular Results](Gnd_truth_Images/Gnd_truth-1.png)
+
 # Audio Samples from Matrix in HD5 format
 ![Audio_Samples](Audio_sample_matrix.png)
 The figure above shows the mics (along the columns) and their normalized intensities (along the rows) . This is input to the beamforming functions.
