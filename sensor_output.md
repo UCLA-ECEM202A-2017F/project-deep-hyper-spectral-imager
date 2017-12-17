@@ -57,9 +57,11 @@ description: Hyperspectral Output
 |1|0.05|0.073|0.023|0.658|0.20|0.257|0.057|1.63|
 |0.25|0.16|0.11|0.05|5.7|0.36|0.32|0.04|4.57|
 |0.75|-0.13|-0.21|0.07|2.67|0.23|-0.06|0.29|10.9|
+|0.85|-0.49|-0.30|0.19|6.37|-0.30|-0.21|0.09|3.03|
+|0.85|0.37|0.29|0.08|2.69|-0.29|-0.19|0.10|3.3|
 
 * Angular Error = Tan-1((error/2)/depth)
-* Average Ground Truth = 2.233(along y) , 3.94(along x)
+* Average Ground Truth = 2.8(along y) , 3.75(along x)
 
 
 ## Realsense IR Images
